@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev1
+---
+spring:
+  profiles: dev1
+person:
+  age: 22
+  name: zk
+
+---
+spring:
+  profiles: dev2
+person:
+  age: 24
+  name: zjn
+
+  
